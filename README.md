@@ -22,3 +22,5 @@ Installation:
 Running tests:  
 `npm test`
 
+![Пройденные тесты](imageTest.png)  
+![Интерфейс приложения](imageCalc.png)  
