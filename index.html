@@ -1,0 +1,139 @@
+<HTML>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <script src="parse.js"></script>
+</head>
+
+
+
+<BODY>
+
+
+    <form>
+
+        <table bgColor="#ffffff" class="Table">
+            <tr>
+                <td colspan="7" style="text-align: center;padding: 5px 0;">
+                    <input disabled="" placeholder="0" type="text" id="nummessege" class="InputStr" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="MC" id="MC" onclick="memoryOp(1)" class="StandardTd">
+                </td>
+                <td width="100">
+
+                </td>
+                <td>
+
+                </td>
+                <td>
+                    <input type="button" value="C" id="C" onclick="clickDel()" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="AC" id="AC" onclick="clickDel()" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="<-" id="<-" onclick="clickDelOne()" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="Rvt" id="Rvt" onclick="rvt()" class="StandardTd">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="MS" id="MS" onclick="memoryOp(2)" class="StandardTd">
+                </td>
+                <td>
+
+                </td>
+                <td>
+                    <input type="button" value="7" id="7" onclick="clickKey(7)" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="8" id="8" onclick="clickKey(8)" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="9" id="9" onclick="clickKey(9)" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="/" id="/" onclick="clickKey('/')" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="(" id="(" onclick="clickKey('(')" class="StandardTd">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="MR" id="MR" onclick="memoryOp(3)" class="StandardTd">
+                </td>
+                <td>
+
+                </td>
+                <td>
+                    <input type="button" value="4" id="4" onclick="clickKey(4)" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="5" id="5" onclick="clickKey(5)" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="6" id="6" onclick="clickKey(6)" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="*" id="*" onclick="clickKey('*')" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value=")" id=")" onclick="clickKey(')')" class="StandardTd">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="M+" id="M+" onclick="memoryOp(4)" class="StandardTd">
+                </td>
+                <td>
+
+                </td>
+                <td>
+                    <input type="button" value="1" id="1" onclick="clickKey(1)" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="2" id="2" onclick="clickKey(2)" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="3" id="3" onclick="clickKey(3)" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="-" id="-" onclick="clickKey('-')" class="StandardTd">
+                </td>
+                <td rowspan="2">
+                    <input type="button" value="=" id="=" onclick="clickRes()" class="BigTd">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="M-" id="M-" onclick="memoryOp(5)" class="StandardTd" />
+                </td>
+                <td>
+
+                </td>
+                <td>
+                    <input type="button" value="0" id="0" onclick="clickKey(0)" class="StandardTd" />
+                </td>
+                <td>
+                    <input type="button" value="." id="." onclick="clickKey('.')" class="StandardTd" />
+                </td>
+                <td>
+                    <input type="button" value="+/-" id="+/-" onclick="plusminus()" class="StandardTd">
+                </td>
+                <td>
+                    <input type="button" value="+" id="+" onclick="clickKey('+')" class="StandardTd">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</HTML>
